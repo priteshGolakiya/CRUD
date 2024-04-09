@@ -27,8 +27,6 @@ const AddUser = () => {
     let isValid = true;
     let errorsObj = {};
 
-    // Validation checks...
-
     setErrors(errorsObj);
 
     if (!isValid) {
